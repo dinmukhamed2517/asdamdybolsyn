@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="secondary_text">#6F6F70</color>
+    <color name="green_text">#76AC30</color>
+    <color name="button_color">#A7F3C0</color>
+    <color name="chip_bg">#CEFFFFFF</color>
+    <color name="card_view_bg">#EEEEEE</color>
+    <color name="asd">#B1E872</color>
+    <color name="red">#CD2B23</color>
+    <color name="light_blue">#FF03A9F4</color>
+    <color name="light_grey">#F4F4F4</color>
+    <color name="grey">#B5B5B5</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_business"
+    app:startDestination="@id/createOfferFragment">
+
+    <fragment
+        android:id="@+id/createOfferFragment"
+        android:name="kz.sdk.tussup.fragments.CreateOfferFragment"
+        android:label="CreateOfferFragment" />
+    <fragment
+        android:id="@+id/restaurantProfileFragment"
+        android:name="kz.sdk.tussup.fragments.RestaurantProfileFragment"
+        android:label="RestaurantProfileFragment" >
+        <action
+            android:id="@+id/action_restaurantProfileFragment_to_loginFragment2"
+            app:destination="@id/loginFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookingRestaurantFragment"
+        android:name="kz.sdk.tussup.fragments.BookingRestaurantFragment"
+        android:label="BookingRestaurantFragment" />
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="kz.sdk.tussup.fragments.LoginFragment"
+        android:label="LoginFragment" />
+</navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "391717691184",
+    "project_id": "asdamdibolsyn",
+    "storage_bucket": "asdamdibolsyn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391717691184:android:8205c7798ed7f41df772f5",
+        "android_client_info": {
+          "package_name": "kz.sdk.tussup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDRUlIR-5DSAEKIqM7rf1AXIo9p-aNwz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

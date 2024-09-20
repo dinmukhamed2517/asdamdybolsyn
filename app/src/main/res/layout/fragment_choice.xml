@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join as a company"
+        android:textColor="@color/green_text"
+        android:layout_marginBottom="50dp"
+        style="@style/Mont"
+        android:textSize="24sp"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_btn"
+        style="@style/Mont.SemiBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        
+        android:backgroundTint="@color/green_text"
+        android:padding="15dp"
+        android:text="Login"
+        app:cornerRadius="10dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/register_btn"
+        style="@style/Mont.SemiBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/green_text"
+        android:padding="15dp"
+        android:text="Register"
+        app:cornerRadius="10dp"
+        />
+
+</LinearLayout>
